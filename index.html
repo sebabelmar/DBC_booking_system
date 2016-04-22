@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project overview</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/projects.css">
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="collapse navbar-collapse navbar-standalone">
+          <nav class="nav navbar-nav">
+            <li class="active"><a href="#">DBC Hotel Management</a></li>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="container main-content">
+      <h2 id='change'>All Available Hotels Rooms</h2>
+      <br>
+
+      <!-- Main table -->
+      <!-- added columns -->
+      <table id="rooms-list" class="table">
+        <thead>
+          <tr>
+            <th>Hotel</th>
+            <th>Room Number</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+      </table>
+      <hr>
+    </div>
+    
+    <script src="vendor/jquery.js"></script>
+    <script src="src/projects.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>

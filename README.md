@@ -9,14 +9,14 @@ A booking system to teach JS: jQuery + $.ajax
 * Rearrange the rooms table to match info
 * Add book button on rooms table's rows
 
-# Plan lectures
+# Lectures Plans
 * Day one:
   * Mock data that eventualy will come from the server
   * Create clases out of the mock data
 * Day two:
   * Using mock data and populate list using jQuery
   * Modify object values using book button 
-* Day thre:
+* Day three:
   * Replace mock data by using AJAX to get it from DB
   * Post from forms
   * Post from book button
